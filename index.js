@@ -4,7 +4,7 @@ import env from "dotenv"
 
 env.config()
 const app = express();
-const port = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 // In-memory data store
 let posts = [
