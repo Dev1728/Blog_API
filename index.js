@@ -94,5 +94,5 @@ app.delete('/posts/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API is running at http://localhost:${port}`);
+  console.log(`API is running at http://localhost:${PORT}`);
 });
